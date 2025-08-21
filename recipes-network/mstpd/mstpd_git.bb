@@ -14,8 +14,6 @@ S = "${WORKDIR}/git"
 
 inherit autotools systemd
 
-EXTRA_OECONF = "--sbindir=/sbin"
-
 CFLAGS += " -DPISM_ENABLE_LOG"
 CFLAGS += " -DPRTSM_ENABLE_LOG"
 CFLAGS += " -DPACKET_DEBUG"
